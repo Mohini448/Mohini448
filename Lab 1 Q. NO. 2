@@ -1,0 +1,20 @@
+public class Employee {
+    // Make members protected
+    protected int id;
+    protected int age;
+    protected String name;
+    protected boolean isPermanent;
+
+    //  Main method
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+
+        //  Assign 35.5 to age — this line causes a compile-time error
+        // emp.age = 35.5; 
+        // Uncomment to see the error
+        //  Fix the error by casting
+        emp.age = (int) 35.5; // This will store 35
+
+        System.out.println("Successfully started");
+    }
+}
