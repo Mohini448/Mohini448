@@ -1,0 +1,11 @@
+public class Student {
+    public String studentName;
+    public String collegeName;
+    public int studentID;
+
+    public static void main(String[] args) {
+        System.out.println("Successful");
+
+    }
+
+}
